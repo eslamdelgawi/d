@@ -1,5 +1,4 @@
 import helper
-import help1
 import requests , re , os , sys
 from datetime import datetime
 from stem import Signal
@@ -34,7 +33,6 @@ inpt = input()
 
 if inpt == '':
 	filex = open('list.txt')
-
 else:
 	filex = open(inpt)
 
