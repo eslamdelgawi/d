@@ -1,4 +1,3 @@
-import helper
 import requests , re , os , sys
 from datetime import datetime
 from stem import Signal
